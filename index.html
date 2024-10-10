@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to my portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #34495e;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2.8em;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #2980b9;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        nav {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        nav ol {
+            list-style-type: none;
+            padding: 0;
+            display: inline-flex;
+        }
+
+        nav ol li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 1.1em;
+            color: #2980b9;
+            padding: 10px 15px;
+            border: 2px solid #2980b9;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #2980b9;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .column {
+            flex: 1;
+            max-width: 45%;
+            margin: 20px;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .column:hover {
+            transform: translateY(-5px);
+        }
+
+        .experience, .education {
+            text-align: left;
+        }
+
+        .experience h2, .education h2 {
+            color: #34495e;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .experience p, .education p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Portfolio</h1>
+    <h2>Hello, I'm Divya</h2>
+    <p>Welcome to my personal blog where I share my thoughts and experiences.</p>
+
+    <nav>
+        <ol>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <section id="experience" class="column">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Engineer Intern</h3>
+                <p><strong>Company Name:</strong> SupplySafe (RNAlter)</p>
+                <p><strong>Duration:</strong> Sep 2024 - Present</p>
+                <p>I'm working on a project for the development of deliberately vulnerable Linux kernel modules.</p>
+            </div>
+
+            <div class="experience">
+                <h3>Software Developer Intern</h3>
+                <p><strong>Company Name:</strong> TechCiti</p>
+                <p><strong>Duration:</strong> Oct 2023 - Nov 2023</p>
+                <ul>
+                    <li>Developed <strong>Heart Disease Prediction</strong> project using Python, achieving a 97.9% prediction accuracy.</li>
+                    <li>Utilized libraries like Pandas, NumPy, and Scikit-learn to optimize model performance.</li>
+                    <li>Collaborated on user interface design to enhance user experience.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Engineer Intern</h3>
+                <p><strong>Company Name:</strong> ComedKares</p>
+                <p><strong>Duration:</strong> Oct 2022 - Nov 2022</p>
+                <p>Worked on building a rapid prototype for automatic sensing taps.</p>
+            </div>
+        </section>
+
+        <section id="education" class="column">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor of Engineering</h3>
+                <p><strong>Institution:</strong> T John Institute of Technology</p>
+                <p><strong>Duration:</strong> 2021 - Present</p>
+                <p><strong>CGPA:</strong> 8.7</p>
+            </div>
+            <div class="education">
+                <h3>Pre-University</h3>
+                <p><strong>Institution:</strong> Sudarshan Vidya Mandir</p>
+                <p><strong>Duration:</strong> 2019 - 2021</p>
+                <p><strong>Percentage:</strong> 89.5%</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

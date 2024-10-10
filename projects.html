@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.02);
+        }
+
+        .project-name {
+            font-weight: bold;
+            font-size: 1.5em;
+            width: 40%;
+        }
+
+        .project-description {
+            width: 55%;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #e74c3c;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 2px solid #e74c3c;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .project-link:hover {
+            background-color: #e74c3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Projects</h1>
+
+    <div class="project">
+        <div class="project-name">Stock Prediction Based on Market Trends</div>
+        <div class="project-description">
+            <p>I developed a stock prediction model using historical data and machine learning algorithms to forecast future stock prices. Utilized an LSTM model for accurate predictions; the prediction accuracy is 96%. Data source used is Yahoo Finance.</p>
+            <a class="project-link" href="https://github.com/Divya-091003/Stock-Prediction-Based-on-Market-Trends">View Project</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-name">Heart Disease Prediction</div>
+        <div class="project-description">
+            <p>I served as a software developer and data analyst, helping to analyze the problem statement and implement a project that predicts heart disease based on user input. Utilized Logistic Regression, Pandas, NumPy, and Scikit-Learn; the prediction accuracy is 97.9%.</p>
+            <a class="project-link" href="https://github.com/Divya-091003/Heart-Disease-Prediction">View Project</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-name">Inventory Management System</div>
+        <div class="project-description">
+            <p>This project helps identify and manage warehouse details for any company using simple calculations and formulas. Created a graphical user interface with Python Tkinter.</p>
+            <a class="project-link" href="https://github.com/Divya-091003/Inventory-Management-System">View Project</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <div class="project-name">Image-based Attendance Monitor</div>
+        <div class="project-description">
+            <p>A marking attendance system using image processing leverages facial recognition technology to automatically identify and record the presence of individuals in a classroom or workplace. Features real-time processing with facial recognition technology.</p>
+            <a class="project-link" href="https://github.com/Divya-091003/Image-based-Attendance-Monitor">View Project</a>
+        </div>
+    </div>
+
+</body>
+</html>
